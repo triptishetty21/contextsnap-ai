@@ -53,7 +53,7 @@ function App() {
 
     try {
       // NOTE: We will change this URL once your backend is deployed to the cloud!
-      const response = await fetch('http://127.0.0.1:8000/api/v1/upload-scan', {
+      const response = await fetch('https://contextsnap-backend.onrender.com/api/v1/upload-scan', {
         method: 'POST',
         body: formData, // Browser sets the correct multipart/form-data boundary headers
       });
